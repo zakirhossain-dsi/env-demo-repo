@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: docker.io/hellozakir/demo-app:latest
+          image: docker.io/hellozakir/demo-app:v1
           ports:
             - containerPort: 8080
               protocol: TCP
